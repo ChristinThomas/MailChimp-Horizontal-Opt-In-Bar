@@ -1,0 +1,98 @@
+/* MailChimp Newsletter Opt-In
+--------------------------------------------------------------------------------*/
+#mc_embed_signup { 
+  border: none; 
+  text-align: center; 
+  width: 100%; 
+  background: #eaeef2 none repeat scroll 0 0;
+}
+#mc_embed_signup h1 {
+  font: 16px 'Montserrat', sans-serif;
+  font-weight:normal; 
+  padding:0px 650px 0px 0px; 
+  margin:10px 0; 
+  text-align: left;
+  display: inline-block; 
+}
+#mc_embed_signup h2 {
+  font: 16px 'Montserrat', sans-serif;
+  font-weight:normal; 
+  padding:0px 10px 0px 0px; 
+  margin:10px 0; 
+  text-align: right;
+  display: inline-block; 
+}
+.mc-field-group { 
+  display: inline-block;
+  background: #eaeef2 none repeat scroll 0 0;
+}
+#mce-EMAIL { 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 16px; 
+  border: 0px solid #ABB0B2 ; 
+  color: #727f97; 
+  background-color: #fff; 
+  padding: .3em 9em .3em 1em; 
+  -webkit-border-radius: 0px; 
+  -moz-border-radius: 0px; 
+  border-radius: 0px; 
+  display: inline-block; 
+  margin: 0; 
+  width: 100px;
+}
+#mc_embed_signup .clear { 
+  display: inline-block; 
+}
+#mc_embed_signup .button { 
+  font-family: 'Montserrat', sans-serif;
+  text-transform: uppercase;
+  font-size: 15px; 
+  letter-spacing: .03em; 
+  color: #727f97; 
+  background-color: #FFFFFF; 
+  padding: .3em 2em; 
+  border: 0px solid #2386C8; 
+  -webkit-border-radius: 0px; 
+  -moz-border-radius: 0px; 
+  border-radius: 0px; 
+  display: inline-block; 
+  margin: 0; }
+#mc_embed_signup .button:hover {
+  background-color:#727f97;
+  color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+:-webkit-input-placeholder { 
+  color: #727f97; 
+} /* WebKit browsers */ 
+:-moz-placeholder { 
+  color: #727f97; 
+} /* Mozilla Firefox 4 to 18 */
+::-moz-placeholder { 
+  color: #727f97; 
+} /* Mozilla Firefox 19+ */
+:-ms-input-placeholder { 
+  color: #727f97; 
+} /* Internet Explorer 10+ */
+@media (
+  max-width: 768px
+) { /* positions input field and button underneath each other with 100% width for tablet and mobile */
+.mc-field-group { 
+  display: block;
+  max-width: 100%; 
+  }
+#mce-EMAIL { 
+  padding: .7em 0 .7em 1em; 
+  width: 96%; 
+  margin: 0; 
+  }
+#mc_embed_signup .clear { 
+  display: block; 
+  width: 100% 
+  }
+#mc_embed_signup .button { 
+  width: 100%; 
+  margin: .5em 0 0 0; 
+  }
